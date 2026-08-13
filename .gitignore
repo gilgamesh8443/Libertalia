@@ -1,0 +1,13 @@
+# Obvious stuff
+config.jsonc
+.env
+
+# Python garbage
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Media library contents (except for Steamboat Willie cause that's our example video)
+media/*
+!media/steamboat_willie/
