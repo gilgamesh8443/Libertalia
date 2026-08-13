@@ -1,6 +1,7 @@
 # Obvious stuff
 config.jsonc
 .env
+cache/*
 
 # Python garbage
 __pycache__/
