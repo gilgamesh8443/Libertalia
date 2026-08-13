@@ -1,0 +1,12 @@
+{
+    "type": "movie",
+    "title": "Steamboat Willie",
+    "sort_title": "Steamboat Willie",
+    "description": "The debut of the titular mouse.",
+    "genres": ["animation"],
+    "release_year": 1928,
+    "rating": "TV-Y7",
+    "poster": "poster.webp",
+    "backdrop": "backdrop.webp",
+    "file_path": "film.mp4"
+}
