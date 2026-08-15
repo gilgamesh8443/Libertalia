@@ -1,5 +1,6 @@
-# Obvious stuff
+# Libertalia data
 config.jsonc
+tokens.jsonc
 .env
 cache/*
 
