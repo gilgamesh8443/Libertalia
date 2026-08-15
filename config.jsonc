@@ -1,8 +1,9 @@
 {
     "role": "hub", // A hub connects nodes hosting media and hosts the web interface; a node connects to a hub and streams media to it
     "node_name": "node0", // Nodes need unique names to identify themselves to the hub, hubs can leave this blank
-    "hub_link": "https://libertalia.com", // Placeholder cause libertalia.com is EXPENSIVE
+    "hub_link": "https://libertalia.com", // Placeholder cause libertalia.com is EXPENSIVE, use if you want to connect to a hub, hubs can leave this blank
     "hub_secret": "", // If role is "hub", this is the secret that nodes provide to connect; if role is "node", this is provided to connect to the hub
+    "require_token": false, // Require viewers to provide a token to access the web interface (tokens are stored in tokens.jsonc)
     "port": 8000,
     "log_level": "info", // One of: debug, info, warning, error
     "media_dirs": [
