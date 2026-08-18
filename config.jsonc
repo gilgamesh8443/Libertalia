@@ -5,6 +5,8 @@
     "hub_secret": "", // If role is "hub", this is the secret that nodes provide to connect; if role is "node", this is provided to connect to the hub
     "require_token": false, // Require viewers to provide a token to access the web interface (tokens are stored in tokens.jsonc)
     "accounts": true, // Allow users to set up accounts for storing data like watch history
+    "reencode_audio": false, // Reencode audio in realtime when a viewer is watching something in a codec their browser doesn't support (e.g. opus to aac)
+    "reencode_video": false, // Reencode video in realtime when a viewer is watching something in a codec their browser doesn't support (e.g. av1 to h264)
     "port": 8000,
     "log_level": "info", // One of: debug, info, warning, error
     "media_dirs": [
