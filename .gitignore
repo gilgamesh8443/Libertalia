@@ -3,6 +3,7 @@ config.jsonc
 tokens.jsonc
 .env
 cache/*
+dat/*
 
 # Python garbage
 __pycache__/
