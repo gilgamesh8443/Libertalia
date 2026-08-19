@@ -8,4 +8,4 @@ Media can be added in the `./media` folder. Every piece of media needs its own f
 > Many common video and audio codecs are not supported on certain browsers (hevc, eac3, etc.), using [FFmpeg](https://www.ffmpeg.org/) you can convert videos to codecs more commonly compatible with browsers (av1, h264, aac, etc.).
 
 > [!NOTE]
-> We cannot condone piracy; Libertalia is media server code capable of hosting non-pirated content. Ripping videos from discs is a legally gray area that may or may not be legal depending on your country of residence.
+> We cannot condone piracy; Libertalia is media server code capable of hosting non-pirated content. Ripping videos from discs for personal backup is a legally gray area that may or may not be legal depending on your country of residence.
