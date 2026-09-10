@@ -1,5 +1,5 @@
 # Libertalia
-A decentralized media server with a web interface for sharing media libraries with friends.
+A media server with a web interface for sharing media libraries with friends.
 
 ## Adding Media
 Media can be added in the `./media` folder. Every piece of media needs its own folder and a `data.json` file. By including `{ "tmdb_id": int, "media_type": "movie" | "tv" }` in the json, data will automatically be gathered for a movie/series.
