@@ -1,13 +1,9 @@
 {
-    "role": "hub", // A hub connects nodes hosting media and hosts the web interface; a node connects to a hub and streams media to it
-    "node_name": "node0", // Nodes need unique names to identify themselves to the hub, hubs can leave this blank
-    "hub_link": "https://libertalia.com", // Placeholder cause libertalia.com is EXPENSIVE, use if you want to connect to a hub, hubs can leave this blank
-    "hub_secret": "", // If role is "hub", this is the secret that nodes provide to connect; if role is "node", this is provided to connect to the hub
-    "require_token": false, // Require viewers to provide a token to access the web interface (tokens are stored in tokens.jsonc)
-    "accounts": true, // Allow users to set up accounts for storing data like watch history
-    "reencode_audio": false, // Reencode audio in realtime when a viewer is watching something in a codec their browser doesn't support (e.g. opus to aac)
-    "reencode_video": false, // Reencode video in realtime when a viewer is watching something in a codec their browser doesn't support (e.g. av1 to h264)
-    "port": 8000,
+    "require_token": true, // Require viewers to provide a token to access the web interface (tokens are stored in tokens.jsonc)
+    "port": 8080,
+    "host_webdav": true, // Network storage
+    "webdav_port": 8443,
+    "webdav_password_hash": "$2b$12$R/sKkSRUnWMiYGrQlwxxbOMTz79z9Gclgi0PM.LBz.T8.ZH/Dnh2y", // Check out ./src/tools/hashed_pass_generator.py
     "log_level": "info", // One of: debug, info, warning, error
     "media_dirs": [
         "./media"
