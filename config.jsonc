@@ -1,9 +1,11 @@
 {
     "require_token": true, // Require viewers to provide a token to access the web interface (tokens are stored in tokens.jsonc)
     "port": 8080,
-    "host_webdav": true, // Network storage
+    "host_webdav": false, // Network storage
     "webdav_port": 8443,
-    "webdav_password_hash": "$2b$12$R/sKkSRUnWMiYGrQlwxxbOMTz79z9Gclgi0PM.LBz.T8.ZH/Dnh2y", // Check out ./src/tools/hashed_pass_generator.py
+    // Check out ./src/tools/hashed_pass_generator.py
+    // IMPORTANT: You should probably use your own password if you're going to host this WebDAV server publicly
+    "webdav_password_hash": "$2b$12$R/sKkSRUnWMiYGrQlwxxbOMTz79z9Gclgi0PM.LBz.T8.ZH/Dnh2y", // This example password is "there_be_treasure"
     "log_level": "info", // One of: debug, info, warning, error
     "media_dirs": [
         "./media"
