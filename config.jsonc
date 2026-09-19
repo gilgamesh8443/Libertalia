@@ -5,7 +5,7 @@
     "webdav_port": 8443,
     // Check out ./src/tools/hashed_pass_generator.py
     // IMPORTANT: You should probably use your own password if you're going to host this WebDAV server publicly
-    "webdav_password_hash": "$2b$12$R/sKkSRUnWMiYGrQlwxxbOMTz79z9Gclgi0PM.LBz.T8.ZH/Dnh2y", // This example password is "there_be_treasure"
+    "admin_password_hash": "$2b$12$R/sKkSRUnWMiYGrQlwxxbOMTz79z9Gclgi0PM.LBz.T8.ZH/Dnh2y", // This example password is "there_be_treasure"
     "log_level": "info", // One of: debug, info, warning, error
     "media_dirs": [
         "./media"
