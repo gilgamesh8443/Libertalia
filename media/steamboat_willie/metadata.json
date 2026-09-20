@@ -1,12 +1,5 @@
 {
-    "type": "movie",
-    "title": "Steamboat Willie",
-    "sort_title": "Steamboat Willie",
-    "description": "Mickey Mouse, piloting a steamboat, delights his passenger, Minnie Mouse, by making musical instruments out of the menagerie on deck.",
-    "genres": ["animation"],
-    "release_year": 1928,
-    "rating": "TV-Y7",
-    "poster": "poster.webp",
-    "backdrop": "backdrop.webp",
-    "file_path": "film.mp4"
+    "tmdb_id": 53565,
+    "media_type": "movie",
+    "movie_path": "film.mp4"
 }
